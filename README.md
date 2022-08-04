@@ -392,11 +392,9 @@ simple_kmod            16384  0
 
 
 
-        7. 
 EXERCISE 3
 
 
-    2. 
 Use DTK to build a driver container image
 Driver Toolkit a.k.a. DTK is a container image which can be used as a base image to build out-of-tree driver containers as it has all the required dependencies to do so. The only previous requirement is knowing in advance which DTK image is needed to use. This image will depend on your Openshift Cluster version and architecture type. We could find out version and use data accordingly i.e for an x86 architecture image:
 
@@ -408,11 +406,7 @@ quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:54bd5d99cb2e4332c63f194a2f
 ```
 
 
-(should change the text color as the last digits are getting shadown by the black background)
 
-I don’t know how the current commands are working but AFAIK `oc version` will give you the client version and not the cluster version. \
- \
-Instead, I will recommend using `oc get clusterversion` in order to get the version, for example 4.10.13 and then use the `oc adm release info` command as you mentioned
 
 In this example we are going to use the Intel Ethernet ICE driver.
 
@@ -1024,11 +1018,9 @@ DUMMY_DEVICES=dev_1
 
 
 
-    5. 
 EXERCISE 5
 
 
-            2. 
 Troubleshoot failure to load a kmod
 There are some different places we could look for logs and traces regarding the load or build of our modules with SRO.
 
