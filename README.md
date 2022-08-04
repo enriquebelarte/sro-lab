@@ -1,28 +1,6 @@
 # sro-lab
 Special Resource Operator Lab
-<!-- Output copied to clipboard! -->
 
-<!-----
-
-Yay, no errors, warnings, or alerts!
-
-Conversion time: 0.876 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β33
-* Thu Aug 04 2022 04:10:57 GMT-0700 (PDT)
-* Source doc: SRO-LAB
-* Tables are currently converted to HTML tables.
------>
 
 
 SRO v1 Lab 
@@ -35,9 +13,8 @@ Goal:  Document SRO lab requirements
 
 
 * The lab assumes that there is an cluster already deployed
-    * For upstream this will be Kubernetes
-    * For downstream this will be OpenShift
-* The lab will contain the following exercises:
+
+* The lab contains the following exercises:
     * **Exercise 1**
         * SRO will be deployed along with NFD dependency for SRO v1
         * Verify SRO and NFD are running
@@ -58,15 +35,12 @@ Goal:  Document SRO lab requirements
 
 
 
-    1. 
-EXERCISE 1
 
+#EXERCISE 1
 
-        1. 
 *Deploy SRO with necessary dependency NFD and verify both are running
 
-
-        2. 
+ 
 Using command-line
 We create a subscription object by adding this yaml to a new file, i.e  **special-resource-operator.yaml**:
 
@@ -94,10 +68,6 @@ oc create -f special-resource-operator.yaml
 ```
 
 
-
-
-        3. 
-
 After a while we should see Special Resource Operator controller running and also its dependency Node Feature Discovery :
 
 
@@ -112,11 +82,7 @@ special-resource-controller-manager-56b978fc6d-fhkgs   2/2     Running   0      
 
 
 
-        4. 
-
-
-
-        5. 
+ 
 Using Openshift console
 Login the console and go to Operators -> OperatorHub
 
@@ -126,11 +92,9 @@ Choose Special Resource Operator provided by Red Hat and click the Install butto
 
 
 
-        6. 
 EXERCISE 2
 
 
-            1. 
 * Deploy simple-kmod example
 First, we will create a folder to save the charts we are making:
 
@@ -711,11 +675,9 @@ ice-kmod-driver-container-e383247e62b56585-pphbs   1/1     Running     0        
 
 
 
-    4. 
 EXERCISE 4
 
 
-        8. 
  Make a recipe to include deploying a kernel module built using DTK and deploying a device plug-in
 In this exercise we will create a dummy device plug-in which will simulate the detection of a specific device type and will provide a way to use a previous build kernel module and load it on the nodes in which our dummy device is detected. 
 
