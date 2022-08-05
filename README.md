@@ -1,9 +1,5 @@
-# sro-lab
 Special Resource Operator Lab
-
-
-
-SRO v1 Lab 
+ 
 
 Goal:  Document SRO lab requirements
 
@@ -36,7 +32,7 @@ Goal:  Document SRO lab requirements
 
 
 
-#EXERCISE 1
+# EXERCISE 1
 
 *Deploy SRO with necessary dependency NFD and verify both are running
 
