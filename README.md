@@ -32,9 +32,9 @@ Goal:  Document SRO lab requirements
 
 
 
-# EXERCISE 1
+## EXERCISE 1
 
-*Deploy SRO with necessary dependency NFD and verify both are running
+**Deploy SRO with necessary dependency NFD and verify both are running
 
  
 Using command-line
@@ -88,10 +88,11 @@ Choose Special Resource Operator provided by Red Hat and click the Install butto
 
 
 
-EXERCISE 2
+## EXERCISE 2
 
 
-* Deploy simple-kmod example
+**Deploy simple-kmod example
+
 First, we will create a folder to save the charts we are making:
 
 
@@ -388,10 +389,11 @@ simple_kmod            16384  0
 
 
 
-EXERCISE 3
+## EXERCISE 3
 
 
-Use DTK to build a driver container image
+**Use DTK to build a driver container image
+
 Driver Toolkit a.k.a. DTK is a container image which can be used as a base image to build out-of-tree driver containers as it has all the required dependencies to do so. The only previous requirement is knowing in advance which DTK image is needed to use. This image will depend on your Openshift Cluster version and architecture type. We could find out version and use data accordingly i.e for an x86 architecture image:
 
 
@@ -665,7 +667,7 @@ ice-kmod-driver-container-e383247e62b56585-pphbs   1/1     Running     0        
 
 
 
-EXERCISE 4
+## EXERCISE 4
 
 
  Make a recipe to include deploying a kernel module built using DTK and deploying a device plug-in
@@ -1014,7 +1016,7 @@ DUMMY_DEVICES=dev_1
 
 
 
-EXERCISE 5
+## EXERCISE 5
 
 
 Troubleshoot failure to load a kmod
