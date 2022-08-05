@@ -1,16 +1,9 @@
-Special Resource Operator Lab
+# Special Resource Operator Lab
  
 
-Goal:  Document SRO lab requirements
+The lab assumes that there is an cluster already deployed and it contains the following exercises:
 
 
-# Requirements
-
-
-
-* The lab assumes that there is an cluster already deployed
-
-* The lab contains the following exercises:
     * **Exercise 1**
         * SRO will be deployed along with NFD dependency for SRO v1
         * Verify SRO and NFD are running
