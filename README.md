@@ -27,10 +27,10 @@ The lab assumes that there is an cluster already deployed and it contains the fo
 
 ## EXERCISE 1
 
-**Deploy SRO with necessary dependency NFD and verify both are running
+** Deploy SRO with necessary dependency NFD and verify both are running
 
  
-Using command-line
+### Using command-line
 We create a subscription object by adding this yaml to a new file, i.e  **special-resource-operator.yaml**:
 
 
@@ -72,8 +72,11 @@ special-resource-controller-manager-56b978fc6d-fhkgs   2/2     Running   0      
 
 
  
-Using Openshift console
+### Using Openshift console
 Login the console and go to Operators -> OperatorHub
+
+![OperatorHub](https://github.com/enriquebelarte/sro-lab/blob/main/images/image3.png)
+
 
 In the search box, type special:
 
