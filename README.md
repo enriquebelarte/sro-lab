@@ -80,7 +80,22 @@ Login the console and go to Operators -> OperatorHub
 
 In the search box, type special:
 
+![OperatorHub](https://github.com/enriquebelarte/sro-lab/blob/main/images/image4.png)
+
+
+
 Choose Special Resource Operator provided by Red Hat and click the Install button:
+
+
+![OperatorHub](https://github.com/enriquebelarte/sro-lab/blob/main/images/image5.png)
+
+
+![OperatorHub](https://github.com/enriquebelarte/sro-lab/blob/main/images/image6.png)
+
+
+![OperatorHub](https://github.com/enriquebelarte/sro-lab/blob/main/images/image7.png)
+
+
 
 
 
