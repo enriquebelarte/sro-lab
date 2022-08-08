@@ -4,7 +4,7 @@
 The lab assumes that there is an cluster already deployed and it contains the following exercises:
 
 
-    * **Exercise 1**
+    * ** Exercise 1**
         * SRO will be deployed along with NFD dependency for SRO v1
         * Verify SRO and NFD are running
     * **Exercise 2**
