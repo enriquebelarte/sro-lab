@@ -80,6 +80,9 @@ Login the console and go to Operators -> OperatorHub
 
 In the search box, type special:
 
+![OperatorHub](https://github.com/enriquebelarte/sro-lab/blob/main/images/image2.png)
+
+
 ![OperatorHub](https://github.com/enriquebelarte/sro-lab/blob/main/images/image4.png)
 
 
